@@ -1,0 +1,33 @@
+# Ignore datasets and large images
+dataset/
+CBIS-DDSM/jpeg/
+
+# Ignore models and uploads
+models/best_model.pth
+models/*.pth
+uploads/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+
+# Env files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
